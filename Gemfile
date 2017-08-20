@@ -22,8 +22,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'devise'
 
 # Bootstrap styling
-gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
+gem 'twitter-bootstrap-rails'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
