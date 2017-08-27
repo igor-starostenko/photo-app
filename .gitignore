@@ -22,5 +22,8 @@
 
 .byebug_history
 
+# Ignore key configuration.
+/.zshrc
+
 # Ignore system files.
 .DS_Store

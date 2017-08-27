@@ -21,6 +21,9 @@ gem 'uglifier', '>= 1.3.0'
 # Authentication
 gem 'devise'
 
+# Payments
+gem 'stripe'
+
 # Bootstrap styling
 gem 'devise-bootstrap-views'
 gem 'twitter-bootstrap-rails'
