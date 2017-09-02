@@ -18,7 +18,7 @@ class RegistrationsController < Devise::RegistrationsController
           flash[:error] = e.message
           resource.destroy
           puts 'Payment failed'
-          render(:new) && return
+          redirect_to new_user_registration_path && return
         end
         if resource.active_for_authentication?
           set_flash_message :notice, :signed_up if is_flashing_format?
