@@ -24,6 +24,11 @@ gem 'devise'
 # Payments
 gem 'stripe'
 
+# Image handling
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
+
 # Bootstrap styling
 gem 'devise-bootstrap-views'
 gem 'twitter-bootstrap-rails'
