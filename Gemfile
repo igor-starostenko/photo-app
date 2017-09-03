@@ -26,8 +26,8 @@ gem 'stripe'
 
 # Image handling
 gem 'carrierwave'
-gem 'mini_magick'
 gem 'fog'
+gem 'mini_magick'
 
 # Bootstrap styling
 gem 'devise-bootstrap-views'
